@@ -616,6 +616,13 @@ const communityPlugins: IPlugin[] = [
       "Execute commands on deployed contracts on any network using a helpful TUI.",
     tags: ["Tooling", "Operations", "Testing"],
   },
+  {
+    name: "hardhat-gui",
+    author: "yecandir",
+    authorUrl: "https://github.com/yecandir",
+    description: "Hardhat plugin to build a simple one-click react app to interact with your deployed contracts.",
+    tags: ["Tooling", "Testing", "Interaction", "ReactApp"]
+  }
 ];
 
 const officialPlugins: IPlugin[] = [
